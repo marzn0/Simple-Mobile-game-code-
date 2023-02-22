@@ -6,6 +6,7 @@ To start, you'll need
 to install Pygame using pip.
 You can do this by running
 the following command in your terminal:
+
 pip install pygame
 
 Once you have Pygame installed, you can begin building your game.
@@ -18,6 +19,7 @@ import time
 
 Then, initialize Pygame 
 and set up the game window:
+
 pygame.init()
 win_width = 800
 win_height = 600
@@ -26,6 +28,7 @@ pygame.display.set_caption("My Mobile Game")
 
 Next, create a player 
 character class and a platform class:
+
 class Player:
     def __init__(self, x, y):
         self.x = x
@@ -77,6 +80,7 @@ class Platform:
 
 Now, create a main game loop and add 
 a player character and some platforms:
+
 player = Player(50, 50)
 platforms = [
     Platform(0, win_height - 40, win_width, 40),
