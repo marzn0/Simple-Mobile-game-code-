@@ -86,9 +86,7 @@ platforms = [
     Platform(0, win_height - 40, win_width, 40),
     Platform(win_width/2 - 50, win_height/2, 100, 20),
     Platform(win_width - 150, win_height - 150, 100, 20),
-    Platform(150, win_height - 250, 100, 20)
-]
-
+    Platform(150, win_height - 250, 100, 20)]
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -96,18 +94,6 @@ while True:
             quit()
 
     win
-
-
-
-Python Mobile Game Development
-
-
-marzn0 1050
-Write me a advanced mobile game using python
-
-Creating a mobile game using Python is possible, but it's important to note that Python isn't typically used for mobile app development. However, Python can be used to develop games that can be deployed on multiple platforms, including mobile devices.
-
-For this example, let's create a simple 2D platformer game using the Pygame library, which is a popular Python library for game development.
 
 To start, you'll need to install Pygame using pip. You can do this by running the following command in your terminal:
 
